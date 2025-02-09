@@ -1,0 +1,202 @@
+@import url("bootstrap/dist/css/bootstrap.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+
+.img{
+    width: 100vw;
+    height:65vh;
+}
+.card{
+    background-image: linear-gradient(to right, rgb(231, 214, 63) , rgb(237, 20, 219));
+    width:100vw;
+    height: 15vw;
+    margin:0px;
+    padding: 30px;
+    
+}
+
+.navbar{
+    background-image: linear-gradient(to right, rgb(231, 214, 63) , rgb(237, 20, 219));
+    padding:5px;
+    margin:0%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.nextnav{
+    background-color: beige;
+    font-weight: bold;
+    margin:0px;
+    padding-left: 10px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.secondpart{
+    font-family:"Roboto";
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+
+    
+}
+.heading{
+    font-size:18px;
+    
+
+}
+.main-heading{
+    font-size:35px;
+
+}
+.main-para{
+
+    font-size:10px;
+}
+@media screen and (min-width:768px) {
+.logos{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+}
+
+
+.second-heading{
+    font-family: "roboto";
+    font-weight: bold;
+    font-size: 18px;
+}
+.second-para{
+    font-family: "roboto";
+    font-size: 13px;
+    display:flex;
+    flex-direction: column;
+    align-items: self-start;
+}
+.about-img{
+    height:40vh;
+    width:30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items:end;
+}
+
+.background{
+    background-image: url("https://img.freepik.com/premium-vector/white-abstract-background-design_665257-26.jpg?w=200");
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:30px;
+    padding-left: 58px;
+    padding-right:60px ;
+    padding-top: 50px;
+}
+     
+
+.third-heading{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+.third-heading-two{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 22px;
+
+}
+.third-para{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size:16px;
+    color: grey;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.last-background{
+    background-image: url("https://img.freepik.com/premium-vector/white-abstract-background-design_665257-26.jpg?w=200");
+    width:100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    padding-left: 58px;
+    padding-right:50px ;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}  
+.last-img{
+    height:250px;
+    width:260px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.last-para{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size:16px;
+    color: grey;
+    
+}
+.last-heading{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+    display:flex;
+    flex-direction: row;
+    
+    
+}
+.last-back{
+    background-image: url("https://img.freepik.com/premium-vector/white-abstract-background-design_665257-26.jpg?w=200");
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: flex-start;
+    padding-left: 50px;
+    
+    
+
+}
+.head{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 30px;
+}
+.last-paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+}
+.button {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, rgb(231, 214, 63) , rgb(237, 20, 219));
+    color: #12022f;
+    border: none;
+    border-radius: 15px;
+    padding: 9px;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-right: 3px;
+}
+.last-para{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: self-end;
+}
